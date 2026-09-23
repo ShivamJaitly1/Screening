@@ -13,12 +13,12 @@ Welcome to my evaluation repository. Below are the deliverables organized accord
 
 ## 2. Tech Skills & Exposure
 
-* **Technical Document:** `TechSkills.docx` *(located in this repository)*
+* **Technical Document:** `TechSkills.md` *(located in this repository)*
 * **Overview:** Detailed documentation showcasing my professional experience, that I work to deliver and I am proud of.
 
 ---
 
 ## 3. Writing Skills
 
-* **Writing Responses Document:** `Writing.docx` *(located in this repository)*
+* **Writing Responses Document:** `Writing.md` *(located in this repository)*
 * **Overview:** Detailed personal and professional experiences covering unconventional problem-solving, deep focus/growth milestones, and onboarding strategies in high-complexity environments.
