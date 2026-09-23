@@ -1,0 +1,19 @@
+## 1) Unconventional Route taken in the experience:
+   
+There was a situation where we took an unconventional approach while implementing a reporting feature. Instead of building a dedicated microservice for the reporting workflow, we chose to use Google Cloud Dataflow. The decision was driven by the nature of the problem: the feature involved processing and transforming data for reporting, and Dataflow provided built-in capabilities for scalable data processing, transformation, parallel execution, and handling large volumes of data without requiring us to build and maintain all of that infrastructure ourselves.
+
+The approach did come with a learning curve for the team because Dataflow was not something we had extensive experience with at the time. Rather than committing to the solution immediately, we built a Proof of Concept (POC) to validate the architecture and understand its operational and development requirements. The POC helped us gain confidence in the approach and identify the areas where the team needed to learn more. Ultimately, this experience reinforced the value of evaluating the problem first and choosing the technology that best fits the workload, even when it means stepping outside the team's existing comfort zone. It also helped us avoid introducing another microservice when a managed data-processing solution could address the requirement more directly.
+
+## 2) Situation Regarding Relentless Focus:
+
+When we hit a major roadblock because the third-party APIs weren't finished yet and our deadline was right around the corner, I knew we couldn't just sit around and wait. Instead, I dove straight into the documentation to understand every single detail of the data and endpoints. To bypass the blocker, I built local mock servers that acted just like the missing services. This clever workaround let my team write, build, and test our entire feature right away without losing a single day.
+
+Because of that proactive effort, we finished our development completely on schedule. When the real third-party APIs finally went live a little later, our code was already rock-solid and fully tested. All we needed was a quick final check to confirm everything connected properly, which made the final release stress-free. That intense focus taught me how to take control of tricky situations and keep projects moving forward no matter what external delays pop up.
+
+## 3) New team and Project:
+
+Joining a new team and stepping into a complex legacy project with limited documentation felt quite challenging at first. There was a vast amount of unfamiliar code, new tools, and established guidelines to absorb, and I knew I couldn't learn everything all at once. Instead of trying to read through extensive manuals, I realized I needed a practical, step-by-step strategy to build clarity and start contributing efficiently without feeling overwhelmed.
+
+I began by setting up and running the application locally to establish a reliable working baseline. Once I could execute requests successfully on my machine, I selected a single core user workflow and traced it step-by-step from the frontend through the backend and down to the database. This gave me a clear mental model of how the system architecture functioned. To prevent losing focus, I concentrated strictly on the specific module assigned to my role, maintaining a personal reference guide for common errors and dependencies to avoid repeatedly asking my colleagues the same questions.
+
+To transition smoothly from learning to delivering value, I requested a couple of small stories early on. Going through the team's standard code review and deployment processes helped me master their coding standards and workflow practices in real-world conditions. Within just a few weeks, that deliberate, methodical approach transformed an intricate system into manageable components, allowing me to become an effective and confident member of the team.
